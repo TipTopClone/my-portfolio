@@ -9,9 +9,9 @@ import {
   Tech,
   Works,
   StarsCanvas,
+  Education,
+  Footer,
 } from './components';
-import Footer from './components/Footer';
-import Education from './components/Education';
 
 const App = () => {
   return (
