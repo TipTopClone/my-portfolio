@@ -1,4 +1,7 @@
 import {
+  jamuna,
+  prem,
+  asim,
   mobile,
   backend,
   creator,
@@ -15,6 +18,7 @@ import {
   git,
   figma,
   docker,
+  Rebbtech,
   coles,
   JBMetro,
   ahic,
@@ -26,6 +30,8 @@ import {
   threejs,
   restaurant,
   ai_summariser,
+  library,
+  transaction,
 } from '../assets';
 
 export const navLinks = [
@@ -45,7 +51,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Web Developer',
+    title: 'Software Engineer',
     icon: web,
   },
   {
@@ -57,7 +63,7 @@ const services = [
     icon: backend,
   },
   {
-    title: 'Frontend Developer',
+    title: 'Data Analyst',
     icon: creator,
   },
 ];
@@ -119,11 +125,39 @@ const technologies = [
 
 const experiences = [
   {
+    title: 'Data Analyst/ IT support ',
+    company_name: 'JB Metro Distributor Canberra',
+    icon: JBMetro,
+    iconBg: '#E6DEDD',
+    date: 'Aug 2024 - Present',
+    points: [
+      'Efficiently mapped products and customers using Excel, improving data accuracy and organization within the company.',
+      'Automated repetitive data analysis tasks with Python, boosting productivity and reducing manual workload.',
+      'Provided prompt IT support, minimizing system downtime and ensuring smooth daily operations for all staff.',
+      'Created detailed Excel reports, enabling better data-driven decisions and improving visibility into key business metrics.',
+      'Streamlined data handling and IT processes, enhancing overall workflow efficiency and reducing process bottlenecks.',
+    ],
+  },
+  {
+    title: 'Intern as Junior Software Developer',
+    company_name: 'REBB TECH PTY LTD',
+    icon: Rebbtech,
+    iconBg: '#383E56',
+    date: 'Jan 2024 - March 2024',
+    points: [
+      'Developed and deployed scalable MERN stack applications, contributing to the enhancement of company web solutions.',
+      'Collaborated with cross-functional teams to successfully deliver high-quality software projects within specified timelines.',
+      'Played a pivotal role in all stages of the full-stack development lifecycle, ensuring efficient coding, testing, and deployment processes.',
+      'Addressed technical challenges, optimized application performance, and maintained high standards of code quality.',
+    ],
+  },
+
+  {
     title: 'Manager',
     company_name: 'Coles Group',
     icon: coles,
     iconBg: '#383E56',
-    date: 'March 2019 - Nov 2021',
+    date: 'March 2019 - Jan 2020',
     points: [
       ' Led and managed a team in a high-pressure retail environment, demonstrating strong leadership and organizational skills.',
       ' Executed efficient inventory management and streamlined supply chain operations, showcasing process optimization abilities.',
@@ -131,46 +165,20 @@ const experiences = [
       'Oversaw operational budgets, financial forecasting, and cost control, highlighting financial acumen applicable to IT budgeting.',
     ],
   },
-  {
-    title: 'IT support Specialist',
-    company_name: 'JB Metro Distributor',
-    icon: JBMetro,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Present',
-    points: [
-      'Provided comprehensive IT support, resolving issues and optimising the website&apos;s frontend for improved performance.',
-      'Assisted in troubleshooting and maintaining IT systems, ensuring minimal downtime and efficient operations.',
-      'Collaborated with cross-functional teams, effectively addressing IT-related concerns and enhancing user experiences.',
-      'Demonstrated versatility by combining IT support and frontend optimisation skills, contributing to overall organisational success.',
-    ],
-  },
-  // {
-  //   title: 'Web Developer',
-  //   company_name: 'Shopify',
-  //   icon: shopify,
-  //   iconBg: '#383E56',
-  //   date: 'Jan 2022 - Jan 2023',
-  //   points: [
-  //     'Developing and maintaining web applications using React.js and other related technologies.',
-  //     'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-  //     'Implementing responsive design and ensuring cross-browser compatibility.',
-  //     'Participating in code reviews and providing constructive feedback to other developers.',
-  //   ],
-  // },
 ];
 
 const education = [
   {
-    title: ' Advanced Diploma of IT',
-    company_name: 'AHIC',
-    icon: ahic,
-    iconBg: '#383E56',
-    date: 'Nov 2018- Feb 2021',
+    title: 'Full-stack Developer',
+    company_name: 'Dented Code Academy ',
+    icon: dentedCode,
+    iconBg: '#E6DEDD',
+    date: 'July 2023 - Oct 2023',
     points: [
-      ' Graduated with a Diploma of IT and Advanced Diploma of Network Security from Australian Harbour International College.',
-      ' Gained expertise in IT fundamentals, network security, and hands-on experience in securing digital infrastructure.',
-      ' Acquired comprehensive knowledge in network protocols, security systems, and threat mitigation strategies.',
-      ' Demonstrated a strong foundation in IT and network security, ready to contribute to cybersecurity initiatives.',
+      'Completed Dented Code Academy&apos;s Full Stack Development program, gaining hands-on experience in HTML, CSS, JavaScript, React, MongoDB, and Node.js.',
+      ' Proficient in both frontend and backend technologies, showcasing versatility in web development.',
+      ' Successfully created multiple projects, demonstrating practical application of acquired skills.',
+      ' Job-ready graduate with a solid foundation in web development, prepared to contribute effectively in software development.',
     ],
   },
   {
@@ -187,16 +195,16 @@ const education = [
     ],
   },
   {
-    title: 'Full-stack Developer',
-    company_name: 'Dented Code Academy ',
-    icon: dentedCode,
-    iconBg: '#E6DEDD',
-    date: 'July 2023 - Oct 2023',
+    title: ' Advanced Diploma of IT',
+    company_name: 'AHIC',
+    icon: ahic,
+    iconBg: '#383E56',
+    date: 'Nov 2018- Feb 2021',
     points: [
-      'Completed Dented Code Academy&apos;s Full Stack Development program, gaining hands-on experience in HTML, CSS, JavaScript, React, MongoDB, and Node.js.',
-      ' Proficient in both frontend and backend technologies, showcasing versatility in web development.',
-      ' Successfully created multiple projects, demonstrating practical application of acquired skills.',
-      ' Job-ready graduate with a solid foundation in web development, prepared to contribute effectively in software development.',
+      ' Graduated with a Diploma of IT and Advanced Diploma of Network Security from Australian Harbour International College.',
+      ' Gained expertise in IT fundamentals, network security, and hands-on experience in securing digital infrastructure.',
+      ' Acquired comprehensive knowledge in network protocols, security systems, and threat mitigation strategies.',
+      ' Demonstrated a strong foundation in IT and network security, ready to contribute to cybersecurity initiatives.',
     ],
   },
 ];
@@ -204,31 +212,55 @@ const education = [
 const testimonials = [
   {
     testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Sujan proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
+      'Sujan Mahat at Coles: Exceptional, dedicated, and a valuable team member.',
+    name: 'Jamuna Karki',
+    designation: 'Friend',
+    company: 'Coles Group',
+    image: jamuna,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Sujan does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg',
+      'Sujan displayed remarkable dedication and growth throughout our software journey.',
+    name: 'Prem Acharya',
+    designation: 'Founder',
+    company: 'Dented Code',
+    image: prem,
   },
   {
     testimonial:
-      "After Sujan optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
+      "Sujan excels: dedicated, skilled, collaborative—integral to JB Metro's success.",
+    name: 'Asim Shrestha',
+    designation: 'Collegue',
+    company: 'JB Metro',
+    image: asim,
   },
 ];
 
 const projects = [
+  {
+    name: 'Library Management',
+    description:
+      'Dynamic library website enabling book purchases and browsing for an immersive reading experience.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'redux',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'bootstrap',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: library,
+    source_code_link:
+      'https://github.com/TipTopClone/Sujan-s-library-client-v2',
+    view_page_link: 'https://sujan-s-library-client-v2.vercel.app/',
+  },
+
   {
     name: 'AI Summariser',
     description:
@@ -239,17 +271,40 @@ const projects = [
         color: 'blue-text-gradient',
       },
       {
-        name: 'html',
+        name: 'redux',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'tailwind',
         color: 'pink-text-gradient',
       },
     ],
     image: ai_summariser,
     source_code_link: 'https://github.com/TipTopClone/ai-summariser',
     view_page_link: 'https://ai-summariser-theta.vercel.app/',
+  },
+  {
+    name: 'Transaction History',
+    description:
+      'Designed and developed a dynamic full-stack website for managing personal finances, featuring seamless income and expense tracking with interactive transaction history.',
+
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'node.js',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'mongoDb',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: transaction,
+    source_code_link: 'https://github.com/TipTopClone/Transaction-Client',
+    view_page_link: 'https://transaction-client-mu.vercel.app/',
   },
   {
     name: 'Sujan Restaurant',
@@ -330,17 +385,17 @@ const projects = [
         color: 'blue-text-gradient',
       },
       {
-        name: 'html',
+        name: 'node.js',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'mongoDb',
         color: 'pink-text-gradient',
       },
     ],
     image: ntdl,
-    source_code_link: 'https://github.com/TipTopClone/React-not-to-do-list',
-    view_page_link: 'https://react-ntdl.vercel.app/',
+    source_code_link: 'https://github.com/TipTopClone/fullstack-ntdl',
+    view_page_link: 'https://ntdl-fullstack-7e27.onrender.com/',
   },
 ];
 

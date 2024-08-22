@@ -56,10 +56,11 @@ const About = () => {
         // animate='visible' // Add this animate prop
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
+        I'm a skilled software developer with a strong foundation in JavaScript
+        and expertise in frameworks like React, Node.js, and Three.js. My
+        backend proficiency includes Node.js, JWT authentication, MongoDB,
+        Docker, and AWS services. I collaborate closely with clients to create
+        efficient, scalable, and user-friendly solutions that effectively solve
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
 
